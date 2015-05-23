@@ -129,6 +129,7 @@ ul {
     background-size: cover;
     margin-left: 20px;
     margin-right: 20px;
+    min-height: 150px;
 }
 
 .row__secondary--convenient {
