@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+          content="SpiderNotes is a Google Chrome Extension that enables you to take notes while you browse the web. SpiderNotes is private, synchronized, and secure."/>
+    <meta name="keywords"
+          content="chrome notes, google chrome notes, google chrome notes extension, notes extension, notes plugin, notes app, web notes, browser notes, html5 notes, secure notes, cloud notes, synchronized notes, open source chrome notes, offline notes app, private notes extension"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SpiderNotes - Notes in your browser: Private, Synchronized,
+        Secure</title>
+    <link rel="stylesheet" href="./static/css/normalize.css">
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="icon" href="./static/img/favicon.png" type="image/png"/>
+</head>
+<body>
+
+<header class="header">
+    <a href="/" title="SpiderNotes">
+        <h1 class="header__title">SpiderNotes</h1>
+
+        <h2 class="header__tagline">Notes in your browser: Private,
+            Synchronized, Secure</h2>
+    </a>
+    <a href="https://chrome.google.com/webstore/detail/spidernotes/mgghkmeinhhcldkigpioebfjfghdeofl"
+       class="header__screenshot"
+       title="Get SpiderNotes for Chrome"></a>
+</header>
+
+<nav class="nav">
+    <a href="https://chrome.google.com/webstore/detail/spidernotes/mgghkmeinhhcldkigpioebfjfghdeofl">Get
+        SpiderNotes for Chrome</a>
+</nav>
+
+<div id="container">
+    <h3>Convenient</h3>
+    <section class="row">
+        <div class="row__primary">
+            <ul>
+                <li>You can easily <b>search by keyword or web-address</b>.</li>
+                <li>The SpiderNotes window lists your most recently edited
+                    notes,
+                    as well as any notes that contain links to the website
+                    in your active tab.
+                </li>
+                <li>A note counter in your web browser's toolbar lets you know
+                    if any of your
+                    notes contain links to the websites that you visit.
+                </li>
+            </ul>
+        </div>
+        <div class="row__secondary row__secondary--convenient"></div>
+    </section>
+
+    <h3>Synchronized</h3>
+    <section class="row">
+        <div class="row__primary">
+            <ul>
+                <li>Enable synchronization to <b>automatically sync</b> your
+                    notes with devices in which you've
+                    <a href="https://support.google.com/chrome/bin/answer.py?hl=en&amp;answer=165139"
+                       target="_blank">signed in to Chrome</a>.
+                </li>
+                <li>You can also sync your notes with other devices by
+                    connecting to your <a
+                            href="https://en.wikipedia.org/wiki/Social_login"
+                            target="_blank">Social Login</a> account on
+                    Facebook, Google,
+                    Microsoft, Twitter or Yahoo!
+                </li>
+                <li>Turn off synchronization to <b>operate completely
+                    offline</b>.
+                </li>
+            </ul>
+        </div>
+        <div class="row__secondary row__secondary--synchronized"></div>
+    </section>
+
+    <h3>Secure</h3>
+    <section class="row">
+        <div class="row__primary">
+            <ul>
+                <li>All network traffic is encrypted.</li>
+                <li>With optional <a
+                        href="http://en.wikipedia.org/wiki/Client-side_encryption"
+                        target="_blank">client-side encryption</a>,
+                    your notes are <b>stored in an encrypted form</b>, both in
+                    your web
+                    browser and in the cloud.
+                </li>
+                <li>When synchronization is enabled, <b>your notes are backed
+                    up</b>
+                    to your other devices and to the SpiderNotes server.
+                </li>
+                <li>Your data belongs to you: <b>import and export</b> your
+                    notes in a plain-text format.
+                </li>
+            </ul>
+        </div>
+        <div class="row__secondary row__secondary--secure"></div>
+    </section>
+
+    <h3>Permissions</h3>
+    <section class="row">
+        <div class="row__primary">
+            <p>SiderNotes uses the "Read your browsing history" Chrome extension
+                permission to:</p>
+            <ol>
+                <li>Display a note counter in your web browser's
+                    toolbar.
+                </li>
+                <li>List notes that contain links to the website
+                    in your active tab.
+                </li>
+                <li>Pre-populate the note editor's "Web-addresses and/or
+                    tags" field with the web-address of the website in
+                    your active tab.
+                </li>
+            </ol>
+            <p>SpiderNotes does not collect or use any other information
+                about your browsing activity.</p>
+        </div>
+        <div class="row__secondary row__secondary--permissions"></div>
+    </section>
+
+    <h3>Contact</h3>
+    <section class="row">
+        <div class="row__primary">
+            <form action="email.php" method="POST" class="contact-form">
+                <input id="name" name="name" type="text">
+
+                <p><label for="email">Email address</label>
+                    <input id="email" name="email" type="email" required></p>
+
+                <p><label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6"
+                              required></textarea></p>
+
+                <p>
+                    <button type="submit" name="submitNotSpam">Send</button>
+                </p>
+            </form>
+        </div>
+        <div class="row__secondary">
+            <p>SpiderNotes is Open Source. All of the source code is available
+                on Github:</p>
+
+            <p><a href="https://github.com/andornaut/spidernotes-chrome">spidernotes-chrome</a>
+                - Google Chrome extension</p>
+
+            <p><a href="https://github.com/andornaut/spidernotes-gae">spidernotes-gae</a>
+                - Google App Engine</p>
+
+            <p><a href="https://github.com/andornaut/spidernotes.com">spidernotes.com</a>
+                - Website</p>
+        </div>
+    </section>
+</div>
+</body>
+</html>
